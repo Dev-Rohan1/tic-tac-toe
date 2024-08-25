@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tic tac toe</title>
-</head>
-<body>
-    
-</body>
+    <!-- ======== fontawesome cdn link ======== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ========== css fil link ==========  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="game-title">Tic Tac Toe in JavaScript</h1>
+    <!-- ======= game play box ====== -->
+    <div class="game-container">
+      <div class="game-boxs">
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+        <button class="boxs"></button>
+      </div>
+      <button class="reset-btn">Rest Game</button>
+    </div>
+    <!-- ======= winner msg box ======== -->
+    <div class="winner">
+      <h1></h1>
+      <button class="replay-btn">Replay Game</button>
+    </div>
+    <!-- ======= js file link ============ -->
+    <script src="./script.js"></script>
+  </body>
 </html>
